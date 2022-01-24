@@ -6,13 +6,11 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>
-          <h1>Weather Search Engine</h1>
-          <Weather />
-        </div>
-      </header>
+    <div>
+      <div className="App">
+        <h1>Weather Search Engine</h1>
+      </div>
+      <Weather />
     </div>
   );
 }
