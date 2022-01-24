@@ -59,13 +59,10 @@ export default function Weather(props) {
                 <div className="float-left">
                   <strong id="temperature">{Math.round(temperature)}</strong>
                   <span className="unit">
-                    <a href="#" id="celcius-link" className="active">
+                    <a id="celcius-link" className="active">
                       °C
                     </a>{" "}
-                    |
-                    <a href="#" id="fahrenheit-link">
-                      °F
-                    </a>
+                    |<a id="fahrenheit-link">°F</a>
                   </span>
                 </div>
               </div>
@@ -88,7 +85,6 @@ export default function Weather(props) {
           <a
             href="https://github.com/AdetunjiA/weather-app-react"
             className="github"
-            target="_blank"
           >
             Open-source code
           </a>
