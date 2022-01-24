@@ -3,7 +3,6 @@ import axios from "axios";
 
 export default function Weather(props) {
   let [city, setCity] = useState("");
-  let [loaded, setLoaded] = useState(false);
   let [temperature, setTemperature] = useState("");
   let [humidity, setHumidity] = useState("");
   let [wind, setWind] = useState("");
