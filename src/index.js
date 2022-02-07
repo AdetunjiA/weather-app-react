@@ -9,8 +9,23 @@ function App() {
     <div>
       <div className="App">
         <h1>Weather Search Engine</h1>
+
+        <Weather />
+        <small>
+          <a
+            href="https://github.com/AdetunjiA/weather-app-react"
+            className="github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          , by Adeola Adetunji and{" "}
+          <a href="https://awesome-goodall-f288fe.netlify.app/" target="_blank">
+            hosted on Netlify
+          </a>
+        </small>
       </div>
-      <Weather />
     </div>
   );
 }
