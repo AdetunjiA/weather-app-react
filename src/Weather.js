@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import WeatherInformation from "./WeatherInformation";
-import WeatherForecast from "./WeatherForecast";
+// import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -69,16 +69,4 @@ export default function Weather(props) {
     search();
     return "Loading...";
   }
-
-  <small>
-    <a
-      href="https://github.com/AdetunjiA/weather-app-react"
-      className="github"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Open-source code
-    </a>
-    , by Adeola Adetunji
-  </small>;
 }

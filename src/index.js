@@ -21,7 +21,11 @@ function App() {
             Open-source code
           </a>
           , by Adeola Adetunji and{" "}
-          <a href="https://awesome-goodall-f288fe.netlify.app/" target="_blank">
+          <a
+            href="https://awesome-goodall-f288fe.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             hosted on Netlify
           </a>
         </small>
